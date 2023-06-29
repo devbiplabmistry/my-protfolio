@@ -1,0 +1,20 @@
+.text {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    top: -100px;
+    transition: all linear .3s;
+}
+
+.nav-link:hover .text {
+    display: block;
+    top: 0;
+
+}
+.nav-link{
+    position: relative;
+}
