@@ -7,14 +7,8 @@ import './NavBar.css'
 
 const NavBar = () => {
     return (
-        <div className="drawer lg:drawer-open absolute z-10">
-            <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col items-center justify-center">
-             <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
-
-            </div>
-            <div className="drawer-side">
-                <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
+        <div>  
+            <div className="fixed right-3 top-1/4 bg-orange-300 rounded-full z-50">
                 <ul className="menu p-8 h-full text-base-content  flex justify-center">
             <Link to="/" className="text-3xl mb-4 nav-link">
                 <AiOutlineHome></AiOutlineHome>

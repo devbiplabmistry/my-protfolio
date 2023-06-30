@@ -10,9 +10,9 @@ const Banner = () => {
     const typed = new Typed(el.current, {
       strings: [
         "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'>I'M BIPLAB.</span>",
-        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'>FULL STACK DEVELOPER.</span>",
-        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'>MERN STACK DEVELOPER.</span>",
-        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'>REACT DEVELOPER.</span>"
+        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M FULL STACK DEVELOPER.</span>",
+        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M MERN STACK DEVELOPER.</span>",
+        "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M REACT DEVELOPER.</span>"
       ],
       typeSpeed: 100,
       backSpeed: 100,

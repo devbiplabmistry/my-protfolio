@@ -7,12 +7,14 @@
     font-size: 14px;
     border-radius: 5px;
     top: -100px;
+    left: -10px;
     transition: all linear .3s;
 }
 
 .nav-link:hover .text {
     display: block;
     top: 0;
+
 
 }
 .nav-link{
