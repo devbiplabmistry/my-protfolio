@@ -1,7 +1,9 @@
 import Img from '../../../assets/protfolio.jpg';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AiOutlineFilePdf, AiOutlinePlus } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 import Typed from 'typed.js';
+import resume from '../../../assets/Biplab_resume_MERN_developer.pdf'
 
 const Banner = () => {
   const el = React.useRef(null);
@@ -26,6 +28,7 @@ const Banner = () => {
       typed.destroy();
     };
   }, []);
+  
 
   return (
     <div className='flex justify-evenly items-center gap-3'>
@@ -39,8 +42,8 @@ const Banner = () => {
         </h5> 
         <span ref={el} />
         <p className='text-base font-Poppins text-green-600'>I will have the opportunity to pursue a challenging career in any dynamic Organization. I have experience working in teams. Prove my talent, skills, knowledge and my ability to develop a professional career. I always ensure my skills are kept up to date within this rapidly changing industry.</p>
-        <button className="btn  btn-success mr-3 mt-3 cursor-pointer font-Roboto text-white text-lg">Hire Me <AiOutlinePlus></AiOutlinePlus> </button>
-        <button className="btn btn-outline btn-success mt-3 cursor-pointer font-Roboto text-white text-lg">Get Resume <AiOutlineFilePdf></AiOutlineFilePdf></button>
+   <Link to="/contact"><button className="btn  btn-success mr-3 mt-3 cursor-pointer font-Roboto text-white text-lg">Hire Me <AiOutlinePlus></AiOutlinePlus> </button></Link>
+    <Link to={resume}  download={resume} ><button className="btn btn-outline btn-success mt-3 cursor-pointer font-Roboto text-white text-lg">Get Resume <AiOutlineFilePdf></AiOutlineFilePdf></button></Link>
 
       </div>
       
