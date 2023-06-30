@@ -36,7 +36,7 @@ export default function App() {
   return (
     <div>
         <NavBar></NavBar>
-        <h1 className="font-Poppins font-extrabold text-black text-6xl text-center mt-48">COMMING <span className="text-green-700">SOON ...</span></h1>
+        <h1 className="font-Poppins font-extrabold text-blue text-6xl text-center mt-48">COMMING <span className="text-green-700">SOON ...</span></h1>
  <div className="App flex justify-center items-center mt-48 gap-4">
      
      <CountdownCircleTimer

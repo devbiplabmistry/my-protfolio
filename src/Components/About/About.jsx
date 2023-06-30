@@ -53,7 +53,7 @@ const About = () => {
               style={{ fontFamily: 'Poppins', fontSize: '50px', color: 'blue', font: 'bold', }}
               suffix="+"
             />
-            <h2 className="font-Poppins font-medium text-xl text-black"> <TbAntennaBars5 className="inline-block"> </TbAntennaBars5> <span>  YEARS OF EXPERIENCE</span></h2>
+            <h2 className="font-Poppins font-medium text-xl text-blue"> <TbAntennaBars5 className="inline-block"> </TbAntennaBars5> <span>  YEARS OF EXPERIENCE</span></h2>
           </div>
           <div className="experience w-64 h-36 border flex-col flex justify-center items-center rounded-xl">
             <CountUp
@@ -64,7 +64,7 @@ const About = () => {
               suffix="+"
             />
 
-            <h2 className="font-Poppins font-medium text-xl text-black"> <MdIncompleteCircle className="inline-block"> </MdIncompleteCircle> <span>COMPLETE PROJECTS</span></h2>
+            <h2 className="font-Poppins font-medium text-xl text-blue"> <MdIncompleteCircle className="inline-block"> </MdIncompleteCircle> <span>COMPLETE PROJECTS</span></h2>
 
           </div>
           <div className="experience w-64 h-36 border flex-col  flex justify-center items-center rounded-xl">
@@ -76,7 +76,7 @@ const About = () => {
               suffix="+"
             />
 
-            <h2 className="font-Poppins font-medium text-xl text-black"> <GiHappySkull className="inline-block"> </GiHappySkull> <span>HAPPY CUSTOMERS</span></h2>
+            <h2 className="font-Poppins font-medium text-xl text-blue"> <GiHappySkull className="inline-block"> </GiHappySkull> <span>HAPPY CUSTOMERS</span></h2>
           </div>
           <div className="experience w-64 h-36 border flex-col flex justify-center items-center rounded-xl">
             <CountUp
@@ -86,12 +86,12 @@ const About = () => {
               style={{ fontFamily: 'Poppins', fontSize: '50px', color: 'blue', font: 'bold', }}
               suffix="+"
             />
-            <h2 className="font-Poppins font-medium text-xl text-black"> <LiaAwardSolid className="inline-block"> </LiaAwardSolid> <span></span>AWARDS WON</h2>
+            <h2 className="font-Poppins font-medium text-xl text-blue"> <LiaAwardSolid className="inline-block"> </LiaAwardSolid> <span></span>AWARDS WON</h2>
           </div>
         </div>
       </div>
       <div className="mt-28" >
-        <h2 className="my-skill text-center text-black font-Poppins font-extrabold text-5xl">My Skills</h2>
+        <h2 className="my-skill text-center text-blue font-Poppins font-extrabold text-5xl">My Skills</h2>
       </div>
       <div className="grid grid-cols-4 gap-11 mt-11">
         <div style={{ width: 150, height: 150, textAlign: 'center' }}>

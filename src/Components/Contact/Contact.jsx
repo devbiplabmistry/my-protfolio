@@ -6,15 +6,15 @@ const Contact = () => {
     return (
         <>
         <NavBar></NavBar>
-          <h1 className="font-Poppins font-extrabold text-black text-6xl text-center mt-48">GET IN <span className="text-green-700">TOUCH </span></h1>
+          <h1 className="font-Poppins font-extrabold text-blue text-6xl text-center mt-48">GET IN <span className="text-green-700">TOUCH </span></h1>
         <div className="flex gap-4">
         
             <div className="w-1/2 mt-36 mb-36">
                 <h1 className='font-Poppins font-extrabold mb-4 text-3xl text-gray-950'>DON'T BE SHY !</h1>
                 <p className='font-Poppins font-normal text-base text-gray-500 mb-2'>Feel free to get in touch with me. I am always open to <br /> discussing new projects, creative ideas or opportunities to be <br /> part of your visions.</p>
-                <p className='font-Poppins font-semibold text-lg text-black'>ADDRESS POINT: <span className='font-Poppins font-normal text-blue-700 text-base'>Kolkata, India</span > </p>
-                <p className='font-Poppins font-semibold text-lg text-black'>MAIL ME: <span className='font-Poppins font-normal text-blue-700 text-base'>dev.biplabmistry@gmail.com</span > </p>
-                <p className='font-Poppins font-semibold text-lg text-black'>PHONE ME: <span className='font-Poppins font-normal text-blue-700 text-base'>+916290220695</span> </p>
+                <p className='font-Poppins font-semibold text-lg text-blue'>ADDRESS POINT: <span className='font-Poppins font-normal text-blue-700 text-base'>Kolkata, India</span > </p>
+                <p className='font-Poppins font-semibold text-lg text-blue'>MAIL ME: <span className='font-Poppins font-normal text-blue-700 text-base'>dev.biplabmistry@gmail.com</span > </p>
+                <p className='font-Poppins font-semibold text-lg text-blue'>PHONE ME: <span className='font-Poppins font-normal text-blue-700 text-base'>+916290220695</span> </p>
              <div className='flex gap-8 mt-8 mx-auto text-center'>
           <div className='w-8 h-8 rounded-full bg-blue-500 flex justify-center items-center'>
           <Link to="https://www.linkedin.com/in/mistrybiplab/"><BiLogoLinkedin className='text-sm text-white'></BiLogoLinkedin></Link>
