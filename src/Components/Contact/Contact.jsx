@@ -7,10 +7,9 @@ const Contact = () => {
         <>
         <NavBar></NavBar>
           <h1 className="font-Poppins font-extrabold text-blue text-6xl text-center mt-48">GET IN <span className="text-green-700">TOUCH </span></h1>
-        <div className="flex gap-4">
-        
+        <div className="flex lg:flex-row sm:flex-col sm:ms-24 md:sm-36 lg:ms-0 gap-4 ">     
             <div className="w-1/2 mt-36 mb-36">
-                <h1 className='font-Poppins font-extrabold mb-4 text-3xl text-gray-950'>DON'T BE SHY !</h1>
+                <h1 className='font-Poppins font-extrabold mb-4 text-3xl text-gray-600'>DON'T BE SHY !</h1>
                 <p className='font-Poppins font-normal text-base text-gray-500 mb-2'>Feel free to get in touch with me. I am always open to <br /> discussing new projects, creative ideas or opportunities to be <br /> part of your visions.</p>
                 <p className='font-Poppins font-semibold text-lg text-blue'>ADDRESS POINT: <span className='font-Poppins font-normal text-blue-700 text-base'>Kolkata, India</span > </p>
                 <p className='font-Poppins font-semibold text-lg text-blue'>MAIL ME: <span className='font-Poppins font-normal text-blue-700 text-base'>dev.biplabmistry@gmail.com</span > </p>
@@ -25,7 +24,7 @@ const Contact = () => {
              </div>
             </div>
             <div>
-                <div className="hero mt-36 mb-36">
+                <div className="hero lg:mt-36 mb-36 sm:-ms-24 md:-ms-8 lg:ms-0 sm:-mt-24 ">
                         <div className="card flex-shrink-0 w-full  shadow-2xl bg-base-100">
                             <div className="card-body grid grid-cols-2 w-full gap-4">
                                 <div className="form-control">

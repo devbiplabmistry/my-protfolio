@@ -6,7 +6,7 @@ const ServiceCard = () => {
     return (
         <>
         <NavBar></NavBar>
-        <div className='grid grid-cols-3 mt-11'>
+        <div className=' flex lg:flex-row lg:mt-11 sm:flex-col md:flex-col  gap-8 sm:ms-24 md:ms-36 lg:ms-0'>
         <div className="card w-96 bg-base-100 shadow-xl image-full ">
         <figure><img src={protfolio1} alt="Shoes" /></figure>
         <div className="card-body text-center">

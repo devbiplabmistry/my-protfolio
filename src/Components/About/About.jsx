@@ -27,7 +27,7 @@ const About = () => {
       <h1 className="font-Roboto font-extrabold text-5xl uppercase text-center mt-36">about <span className="text-green-600">me</span></h1>
 
       <h2 className="text-4xl uppercase font-Poppins font-bold mt-52 text-center mb-10 ">personal information</h2>
-      <div className="flex justify-evenly">
+      <div className="flex sm:flex-col lg:flex-row justify-evenly">
         <div>
           <div className="information flex items-center justify-center  gap-6 ">
             <div className="ml-4">
@@ -42,9 +42,9 @@ const About = () => {
             </div>
           </div>
 
-          <Link to="/about/s"> <button className="btn btn-outline btn-secondary block mx-auto mt-10">Services</button> </Link>
+          <Link to="/about/s"> <button className="btn btn-outline btn-secondary sm:my-12 lg:my-4 block mx-auto mt-10">Services</button> </Link>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 mx-auto">
           <div className="experience w-64 h-36 border  flex justify-center items-center flex-col rounded-xl">
             <CountUp
               duration={5}
@@ -93,7 +93,7 @@ const About = () => {
       <div className="mt-28" >
         <h2 className="my-skill text-center text-blue font-Poppins font-extrabold text-5xl">My Skills</h2>
       </div>
-      <div className="grid grid-cols-4 gap-11 mt-11">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 sm:ms-24 lg:ms-0 gap-11 mt-11">
         <div style={{ width: 150, height: 150, textAlign: 'center' }}>
           <CircularProgressbar
             value={HTMLPercentage}
@@ -242,7 +242,7 @@ const About = () => {
       {/*  */}
       <div>
         <h2 className="text-4xl uppercase font-Poppins font-bold mt-52 text-center mb-10 ">Education & Experience</h2>
-        <div className="flex gap-8 justify-evenly items-center ">
+        <div className="flex gap-8 lg:justify-evenly items-center sm:flex-col  lg:flex-row ">
           <div>
             <h3 className="font-Roboto font-semibold text-2xl text-green-400">Working Process Of Fest</h3>
             <p className="font-Poppins font-medium text-base text-blue-400">Here’s your guide to the tech fest 2021 process. <br /> Go through all the steps to know the exact <br /> process of the fest.</p>

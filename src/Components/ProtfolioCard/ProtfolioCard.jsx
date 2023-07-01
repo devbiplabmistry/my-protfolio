@@ -5,7 +5,7 @@ import recipee from '../../assets/ChefRecipee.png'
 
 const ProtfolioCard = () => {
     return (
-        <div className='grid grid-cols-3 gap-3 -top-3 protfolioCard my-12'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-1 sm:ms-24 lg:ms-0 md:ms-36 gap-3 -top-3 protfolioCard my-12'>
             <div className="card w-96 bg-base-100 shadow-xl p1">
                 <figure className="px-10 pt-10">
                 <img src={summerCamp} alt="Shoes" />
