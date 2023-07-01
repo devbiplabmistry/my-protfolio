@@ -11,7 +11,7 @@ const Banner = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "<span style='color: yellow; lg:font-size: 50px; sm:font-size:30px; font-weight: bold; fontFamily: 'Roboto';'>I'M BIPLAB.</span>",
+        "<span style='color: yellow; font-size:50px; font-weight: bold; fontFamily: 'Roboto';'>I'M BIPLAB.</span>",
         "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M FULL STACK DEVELOPER.</span>",
         "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M MERN STACK DEVELOPER.</span>",
         "<span style='color: yellow; font-size: 50px; font-weight: bold; fontFamily: 'Roboto';'> I'M REACT DEVELOPER.</span>"

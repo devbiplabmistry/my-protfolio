@@ -48,8 +48,7 @@ const Contact = () => {
                                 <textarea className="textarea textarea-secondary  capitalize font-Poppins font-normal text-base text-green-950 items-center" placeholder="Type Details here..."></textarea>
                             </div>
                             <button className="btn btn-outline btn-primary inline-block mx-auto mb-8"><p className='flex capitalize font-Poppins font-normal text-base text-green-950 items-center gap-1'>Send Message <BiMessageRoundedMinus></BiMessageRoundedMinus></p></button>
-                        </div>
-                  
+                        </div>  
                 </div>
             </div>
         </div>
