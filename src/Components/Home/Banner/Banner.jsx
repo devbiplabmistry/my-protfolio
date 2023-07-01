@@ -6,6 +6,9 @@ import Typed from 'typed.js';
 import resume from '../../../assets/Biplab_resume_MERN_developer.pdf'
 import '@wcj/dark-mode';
 import './Banner.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Banner = () => {
   const el = React.useRef(null);
   React.useEffect(() => {
@@ -30,12 +33,16 @@ const Banner = () => {
   }, []);
   return (
     <>
-     <dark-mode   permanent light="Light" dark="Dark"></dark-mode>
+      <dark-mode permanent light="Light" dark="Dark"></dark-mode>
       <div className='lg:flex lg:flex-row md:justify-evenly items-center gap-3 mt-24 mb-24 sm:flex sm:flex-col sm:justify-center sm:items-center'>
-        <div className="img lg:w-1/3 sm:w-1/2 md:w-2/3">
+        <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" className="img lg:w-1/3 sm:w-1/2 md:w-2/3" >
           <img src={Img} alt="Img" className="w-full h-full rounded-lg" />
         </div>
-        <div className="content lg:w-1/2 sm:w-full sm:ps-3 lg:ps-0">
+        <div data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" className="content lg:w-1/2 sm:w-full sm:ps-3 lg:ps-0" data-aos="zoom-out-left">
           <h2 className='font-Roboto font-medium text-3xl text-green-600'>Welcome to My World</h2>
           <h5 className='font-Roboto font-medium text-3xl text-green-600 '>
             <img src="https://cliply.co/wp-content/uploads/2019/06/391906110_WAVING_HAND_400px.gif" alt="" className='w-8' />

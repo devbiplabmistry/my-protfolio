@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
             <div>
                 <div className="hero lg:mt-36 mb-36 sm:-ms-24 md:-ms-8 lg:ms-0 sm:-mt-24 ">
-                        <div className="card flex-shrink-0 w-full  shadow-2xl bg-base-100">
+                        <form className="card flex-shrink-0 w-full  shadow-2xl bg-base-100">
                             <div className="card-body grid grid-cols-2 w-full gap-4">
                                 <div className="form-control">
                                     <label className="label">
@@ -48,7 +48,7 @@ const Contact = () => {
                                 <textarea className="textarea textarea-secondary  capitalize font-Poppins font-normal text-base text-green-950 items-center" placeholder="Type Details here..."></textarea>
                             </div>
                             <button className="btn btn-outline btn-primary inline-block mx-auto mb-8"><p className='flex capitalize font-Poppins font-normal text-base text-green-950 items-center gap-1'>Send Message <BiMessageRoundedMinus></BiMessageRoundedMinus></p></button>
-                        </div>  
+                        </form>  
                 </div>
             </div>
         </div>

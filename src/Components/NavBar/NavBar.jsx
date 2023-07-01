@@ -4,11 +4,16 @@ import { ImBlog } from "react-icons/im";
 import { GrContactInfo } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import './NavBar.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const NavBar = () => {
     return (
         <div>  
-            <div className="fixed right-3 top-1/4 bg-orange-300 sm:rounded-full  z-50">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="fixed right-3 top-1/4 bg-orange-300 sm:rounded-full  z-50">
                 <ul className="menu p-8 h-full text-base-content  flex justify-center">
             <Link to="/" className="text-3xl mb-4 nav-link">
                 <AiOutlineHome></AiOutlineHome>
