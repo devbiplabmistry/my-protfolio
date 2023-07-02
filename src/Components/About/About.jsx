@@ -17,10 +17,6 @@ const About = () => {
       <h1 data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" className="font-Roboto font-extrabold text-5xl uppercase text-center mt-36">about <span className="text-green-600">me</span></h1>
-
-
-
-
 <Player
   autoplay
   loop
@@ -29,19 +25,7 @@ const About = () => {
 >
   <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
 </Player>
-
-
-
-
-
-
-
-
-
-
-
-
-      <h2 data-aos="zoom-in-right" className="text-4xl mb-24 uppercase font-Poppins font-bold mt-52 text-center mb-10 ">personal information</h2>
+      <h2 data-aos="zoom-in-right" className="text-4xl mb-24 uppercase font-Poppins font-bold mt-8 text-center mb-10 ">personal information</h2>
       <div className="flex sm:flex-col lg:flex-row justify-evenly" data-aos="flip-up">
         <div>
           <div className="information flex items-center justify-center  gap-6 ">
