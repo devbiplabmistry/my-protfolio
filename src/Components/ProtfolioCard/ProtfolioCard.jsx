@@ -39,20 +39,20 @@ const ProtfolioCard = () => {
                     </figure>
                     {hoveredIndex === 0 && (
                         <div
-                            className="overlay-text  bg-blue-300 rounded-2xl top-8  absolute
+                            className="overlay-text   bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
                           bg-transparent p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">summer Camp</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>This is a manufacturing website site. Here users can log in to make sure to authorize users to order products, give reviews, and update their profiles. Can pay for ordered products. There is also an admin panel in the dashboard where the admin can make admin, manage orders and add products. Fully responsive. Payment gateway has been added.</p>
                             <h3 className='font-Poppins font-semibold text-white text-lg my-4'>Used Technology</h3>
                             <div className="grid grid-cols-2 gap-3 w-[280px] mx-auto">
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">React.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Node.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">MongoDB</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Express.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Stripe</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Firebase</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Tailwind</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Vercel</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">React.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Node.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">MongoDB</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Express.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Stripe</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Firebase</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Tailwind</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Vercel</p>
                             </div>
                         </div>
                     )}
@@ -66,20 +66,20 @@ const ProtfolioCard = () => {
                     </figure>
                     {hoveredIndex2 === 0 && (
                         <div
-                            className="overlay-text  bg-blue-300 rounded-2xl top-8  absolute
+                            className="overlay-text  bg-[rgba(0,0,0,0.6)]   rounded-2xl top-8  absolute
                        bg-transparent p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">Toy-Market-Place</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>
                                 Discover our tailored platform for toy enthusiasts, with interactive features, personalized profiles, and seamless shopping. Curate your toy collection, track wishlist and purchases, and engage with a vibrant community. Find joy in building your own toy kingdom on our captivating platform, where every click is an adventure into the world of toys.</p>
                                 <h3 className='font-Poppins font-semibold text-white text-lg my-4'>Used Technology</h3>
                             <div className="grid grid-cols-2 gap-3 w-[280px] mx-auto">
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">React.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Node.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">MongoDB</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Express.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Firebase</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Tailwind</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Vercel</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">React.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Node.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">MongoDB</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Express.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Firebase</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Tailwind</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Vercel</p>
                             </div>
                         </div>
                     )}
@@ -94,20 +94,20 @@ const ProtfolioCard = () => {
                     </figure>
                     {hoveredIndex3 === 0 && (
                         <div
-                            className="overlay-text bg-blue-300 rounded-2xl top-8  absolute
+                            className="overlay-text bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
                          bg-transparent p-8 left-0 ">
-                            <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">Chief-Recipe-Hunter</h2>
+                            <h2 className="text-center  text-white  text-2xl mb-3 font-Poppins capitalize">Chief-Recipe-Hunter</h2>
                             <p className='px-8   font-Poppins text-sm text-white '>Delve into a world of authentic flavors and cultural diversity with exclusive access to expert chefs' traditional recipes. Discover the history, ingredients, and techniques of specific cuisines, immersing yourself in their rich culinary heritage. Expand your culinary knowledge and savor the delights of traditional cuisine on our platform. </p>
                             <h3 className='font-Poppins font-semibold text-white text-lg my-4'>Used Technology</h3>
                             <div className="grid grid-cols-2 gap-3 w-[280px] mx-auto">
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">React.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Node.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">MongoDB</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Express.js</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Firebase</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Tailwind</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Vercel</p>
-                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-green-800 inline-block">Netlify</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">React.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Node.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">MongoDB</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Express.js</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Firebase</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Tailwind</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Vercel</p>
+                                <p className="px-8 font-Poppins font-normal text-base text-white rounded-lg border border-white inline-block">Netlify</p>
                             </div>
                         </div>
                     )}
