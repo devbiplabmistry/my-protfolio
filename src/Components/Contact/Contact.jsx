@@ -1,4 +1,4 @@
-import { BiLogoLinkedin, BiMessageRoundedMinus } from 'react-icons/bi';
+import { BiLogoLinkedin,BiMessageRoundedMinus } from 'react-icons/bi';
 import NavBar from '../NavBar/NavBar';
 import { Link } from 'react-router-dom';
 import { BsGithub } from 'react-icons/bs';
@@ -8,13 +8,13 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_5pnyh3m', 'template_rck40tr', form.current, 'sR5VG4cZjOQSFdb8l')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
+        e.reset()
     }
     return (
         <>
@@ -67,7 +67,7 @@ const Contact = () => {
                                 <textarea name="message" className="textarea textarea-secondary  capitalize font-Poppins font-normal text-base text-green-950 items-center" placeholder="Type Details here..."></textarea>
                             </div>
                             <button type="submit" value="Send" className="btn btn-outline btn-primary inline-block mx-auto mb-8"><p className='flex capitalize font-Poppins font-normal text-base text-green-950 items-center gap-1'>Send Message <BiMessageRoundedMinus></BiMessageRoundedMinus></p></button>
-                        </form>
+                        </form> 
                     </div>
                 </div>
             </div>
