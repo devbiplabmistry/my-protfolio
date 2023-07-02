@@ -18,3 +18,11 @@
 .nav-link{
     position: relative;
 }
+
+ul a{
+    top: -10px;
+    transition: all linear .3s;
+}
+ul a:hover{
+    top: 0;
+}

@@ -7,20 +7,9 @@ import { MdIncompleteCircle } from 'react-icons/md';
 import { GiHappySkull } from 'react-icons/gi';
 import { LiaAwardSolid } from 'react-icons/lia';
 import { Link } from "react-router-dom";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import { SkillBar } from 'react-skills';
+
 const About = () => {
-  const HTMLPercentage = 94;
-  const CSSPercentage = 98;
-  const JAVASCRIPTPercentage = 75;
-  const JQUERYPercentage = 79;
-  const BOOTSTRAPPercentage = 96;
-  const TAILWINDPercentage = 88;
-  const MONGODBPercentage = 53;
-  const EXPRESSPercentage = 53;
-  const REACTPercentage = 97;
-  const NODEPercentage = 69;
-  const GRAPHICSPercentage = 77;
-  const NEXTPercentage = 71;
   return (
     <div className="mb-12">
       <NavBar></NavBar>
@@ -94,164 +83,35 @@ const About = () => {
         <h2 className="my-skill text-center text-blue font-Poppins font-extrabold text-5xl">My Skills</h2>
       </div>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 sm:ms-24 lg:ms-0 gap-11 mt-11">
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={HTMLPercentage}
-            text={`${HTMLPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>HTML</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={CSSPercentage}
-            text={`${CSSPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>CSS</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={JAVASCRIPTPercentage}
-            text={`${JAVASCRIPTPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>JAVASCRIPT</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={JQUERYPercentage}
-            text={`${JQUERYPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>JQUERY</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={BOOTSTRAPPercentage}
-            text={`${BOOTSTRAPPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>BOOTSTRAP</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={TAILWINDPercentage}
-            text={`${TAILWINDPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>TAILWIND</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={MONGODBPercentage}
-            text={`${MONGODBPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>MONGODB</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={EXPRESSPercentage}
-            text={`${EXPRESSPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>EXPRESS JS</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={REACTPercentage}
-            text={`${REACTPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>REACT JS</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={NODEPercentage}
-            text={`${NODEPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>NODE JS</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={GRAPHICSPercentage}
-            text={`${GRAPHICSPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>GRAPHICS</h3>
-        </div>
-        <div style={{ width: 150, height: 150, textAlign: 'center' }}>
-          <CircularProgressbar
-            value={NEXTPercentage}
-            text={`${NEXTPercentage}%`}
-            styles={buildStyles({
-              textColor: "red",
-              pathColor: "turquoise",
-              trailColor: "gold"
-            })}
-          />
-          <h3>NEXT JS</h3>
-        </div>
+        <SkillBar name="HTML" level={100} color="#ff7b25" />
+        <SkillBar name="CSS" level={100} color="#7FFF00" />
+        <SkillBar name="JAVASCRIPT" level={80} color="#008B8B" />
+        <SkillBar name="JQUERY" level={85} color="#8B008B" />
+        <SkillBar name="BOOTSTRAP" level={95} color="#00CED1" />
+        <SkillBar name="TAILWIND" level={96} color="#FF1493" />
+        <SkillBar name="MONGODB" level={75} color="#228B22" />
+        <SkillBar name="EXPRESS JS" level={79} color="#ADFF2F" />
+        <SkillBar name="REACT JS" level={97} color="#FF69B4" />
+        <SkillBar name="NODE JS" level={78} color="#00FF00" />
+        <SkillBar name="NEXT JS" level={69} color="#C71585" />
+        <SkillBar name="GRAPHICS" level={80} color="#FF4500" />
       </div>
-      {/*  */}
-      <div>
-        <h2 className="text-4xl uppercase font-Poppins font-bold mt-52 text-center mb-10 ">Education & Experience</h2>
-        <div className="flex gap-8 lg:justify-evenly items-center sm:flex-col  lg:flex-row ">
-          <div>
-            <h3 className="font-Roboto font-semibold text-2xl text-green-400">Working Process Of Fest</h3>
-            <p className="font-Poppins font-medium text-base text-blue-400">Here’s your guide to the tech fest 2021 process. <br /> Go through all the steps to know the exact <br /> process of the fest.</p>
-          </div>
-          <div>
-            <h2 className="font-Poppins font-medium text-base text-blue-400">B.sc in Physics at University of Calcutta</h2>
-          </div>
+      <div className="my-28">
+        <div className="mt-28 " >
+          <h2 className="my-skill text-center text-blue font-Poppins font-extrabold text-5xl mb-28">Education & Experience</h2>
         </div>
+        <div className="flex gap-8 justify-center items-center">
+          <div className="experience">
+            <h3 className="font-Poppins font-bold text-xl text-blue-700">WORKING PROCESS</h3>
+            <h2 className="font-Poppins font-semibold text-lg text-orange-400">Working Process of Fest</h2>
+            <p className="font-Poppins text-base text-blue-600 font-medium">Here’s your guide to the tech fest 2021 process.<br></br> Go through all the steps to know the exact process of the fest.</p>
+          </div>
 
+          <div>
+            <h1 className="font-Roboto text-3xl font-bold text-orange-400 ">B.sc in Physics At University Of Calcutta</h1>
+          </div>
+
+        </div>
       </div>
     </div>
   );
