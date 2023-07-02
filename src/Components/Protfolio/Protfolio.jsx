@@ -14,7 +14,9 @@ const Protfolio = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <h1 className="font-Poppins font-extrabold text-6xl text-blue text-center my-28">MY LATEST  <span className="text-green-500">WORKS</span></h1>
+            <h1 data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className="font-Poppins font-extrabold text-6xl text-blue text-center my-28">MY LATEST  <span className="text-green-500">WORKS</span></h1>
             <div className="navbar bg-base-100">
                 <div className="navbar-start hidden">
                     <div className="dropdown">
@@ -53,9 +55,6 @@ const Protfolio = () => {
                     <p className="px-8 font-Poppins font-normal text-base text-blue-700 rounded-lg border border-green-800 inline-block">Firebase</p>
                 </div>
             </div>
-
-
-
             {/* <div className="protfolio-text2 mx-auto absolute top-12 left-1 w-[380px] text-center mx-auto">
                     <h2 className="text-center">summer Camp</h2>
                     <p>This is a manufacturing website site. Here users can log in to make sure to authorize users to order products, give reviews, and update their profiles. Can pay for ordered products. There is also an admin panel in the dashboard where the admin can make admin, manage orders and add products. Fully responsive. Payment gateway has been added.</p>
