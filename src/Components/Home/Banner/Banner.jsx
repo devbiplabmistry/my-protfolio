@@ -42,7 +42,7 @@ const Banner = () => {
             autoplay
             loop
             src="https://assets9.lottiefiles.com/private_files/lf30_obidsi0t.json"
-            style={{ height: '300px', width: '300px' }}
+            style={{ height: '800px', width: '800px' }}
           >
             <Controls
               visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
