@@ -1,4 +1,4 @@
-import { BiLogoLinkedin,BiMessageRoundedMinus } from 'react-icons/bi';
+import { BiLogoLinkedin, BiMessageRoundedMinus } from 'react-icons/bi';
 import NavBar from '../NavBar/NavBar';
 import { Link } from 'react-router-dom';
 import { BsGithub } from 'react-icons/bs';
@@ -11,10 +11,10 @@ const Contact = () => {
         emailjs.sendForm('service_5pnyh3m', 'template_rck40tr', form.current, 'sR5VG4cZjOQSFdb8l')
             .then((result) => {
                 console.log(result.text);
+                e.reset();
             }, (error) => {
                 console.log(error.text);
-            });
-        e.reset()
+            });  
     }
     return (
         <>
@@ -44,30 +44,15 @@ const Contact = () => {
                     <div data-aos="fade-left"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine" className="hero lg:mt-36 mb-36 sm:-ms-24 md:-ms-8 lg:ms-0 sm:-mt-24 ">
-                        <form ref={form} className="card flex-shrink-0 w-full  shadow-2xl bg-base-100" onSubmit={sendEmail}>
-                            <div className="card-body grid grid-cols-2 w-full gap-4">
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text  capitalize font-Poppins font-normal text-base text-green-950 items-center">Name</span>
-                                    </label>
-                                    <input name="user_name" type="text" placeholder="Ex. John Deo" className="input input-bordered  capitalize font-Poppins font-normal text-base text-green-950 items-center" />
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text  capitalize font-Poppins font-normal text-base text-green-950 items-center">Email</span>
-                                    </label>
-                                    <input name="user_email" type="email" placeholder="Ex.name@example.com" className="input input-bordered  capitalize font-Poppins font-normal text-base text-green-950 items-center" />
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text  capitalize font-Poppins font-normal text-base text-green-950 items-center">Subject</span>
-                                    </label>
-                                    <input type="text" placeholder="Ex.create website" className="input input-bordered  capitalize font-Poppins font-normal text-base text-green-950 items-center" />
-                                </div>
-                                <textarea name="message" className="textarea textarea-secondary  capitalize font-Poppins font-normal text-base text-green-950 items-center" placeholder="Type Details here..."></textarea>
-                            </div>
-                            <button type="submit" value="Send" className="btn btn-outline btn-primary inline-block mx-auto mb-8"><p className='flex capitalize font-Poppins font-normal text-base text-green-950 items-center gap-1'>Send Message <BiMessageRoundedMinus></BiMessageRoundedMinus></p></button>
-                        </form> 
+                        <form ref={form} onSubmit={sendEmail} className='bg-blue-500 gap-6 grid grid-cols-2 p-8 rounded-md'>
+                            <label className='font-Poppins font-bold text-2xl ps-3 text-white'>Name</label>
+                            <input type="text" name="user_name" className='bg-slate-500 rounded-lg p-2 text-white' />
+                            <label className='font-Poppins font-bold text-2xl ps-3 text-white'>Email</label>
+                            <input type="email" name="user_email" className='bg-slate-500 rounded-lg p-2 text-white' />
+                            <label className='font-Poppins font-bold text-2xl ps-3 text-white '>Message</label>
+                            <textarea name="message" className='bg-slate-500 rounded-lg p-2 text-white' />
+                            <input type="submit" value="Send" className='btn btn-primary block mx-auto' />
+                        </form>
                     </div>
                 </div>
             </div>
