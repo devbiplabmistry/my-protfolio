@@ -7,7 +7,7 @@ const ServiceCard = () => {
         <>
         <NavBar></NavBar>
         <div className=' flex lg:flex-row lg:mt-11 sm:flex-col md:flex-col  gap-8 sm:ms-24 md:ms-36 lg:ms-0'>
-        <div className="card w-96 bg-base-100 shadow-xl image-full ">
+        <div data-aos="fade-down-right" className="card w-96 bg-base-100 shadow-xl image-full ">
         <figure><img src={protfolio1} alt="Shoes" /></figure>
         <div className="card-body text-center">
         <h2 className='font-Poppins text-2xl text-orange-400 font-medium'>Website Development</h2>
@@ -16,12 +16,12 @@ const ServiceCard = () => {
       </div>
         <div className="card w-96 bg-base-100 shadow-xl image-full ">
         <figure><img src={protfolio2} alt="Shoes" /></figure>
-        <div className="card-body text-center">
+        <div data-aos="flip-up" className="card-body text-center">
         <h2 className='font-Poppins text-2xl text-orange-400 font-medium'>Full Stack Website Build</h2>
           <p className='font-Poppins text-base text-white font-medium'>Obcaecati, quam? Collaborate with product management and engineering to define and implement innovative solutions for the product direction, visuals and experience Execute all visual design stages from concept to final hand-off to engineering Conceptualize original ideas that bring simplicity and user friendliness to complex design roadblocks Create wireframes, storyboards, user flows, process flows and site maps to effectively communicate interaction and design ideas Present and defend designs and key milestone deliverables to peers and executive level stakeholders Conduct user research and evaluate user feedback</p>
         </div>
       </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full ">
+        <div data-aos="fade-down-left" className="card w-96 bg-base-100 shadow-xl image-full ">
         <figure><img src={protfolio3} alt="Shoes"  /></figure>
         <div className="card-body text-center">
         <h2 className='font-Poppins text-2xl text-orange-400 font-medium'>Web Apps Build</h2>
