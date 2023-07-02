@@ -8,6 +8,7 @@ import { GiHappySkull } from 'react-icons/gi';
 import { LiaAwardSolid } from 'react-icons/lia';
 import { Link } from "react-router-dom";
 import { SkillBar } from 'react-skills';
+import { Controls, Player } from "@lottiefiles/react-lottie-player";
 
 const About = () => {
   return (
@@ -16,6 +17,29 @@ const About = () => {
       <h1 data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" className="font-Roboto font-extrabold text-5xl uppercase text-center mt-36">about <span className="text-green-600">me</span></h1>
+
+
+
+
+<Player
+  autoplay
+  loop
+  src="https://assets8.lottiefiles.com/private_files/lf30_igfaivqx.json"
+  style={{ height: '300px', width: '300px' }}
+>
+  <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
+</Player>
+
+
+
+
+
+
+
+
+
+
+
 
       <h2 data-aos="zoom-in-right" className="text-4xl mb-24 uppercase font-Poppins font-bold mt-52 text-center mb-10 ">personal information</h2>
       <div className="flex sm:flex-col lg:flex-row justify-evenly" data-aos="flip-up">

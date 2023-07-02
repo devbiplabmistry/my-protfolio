@@ -8,6 +8,7 @@ import '@wcj/dark-mode';
 import './Banner.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Controls, Player } from '@lottiefiles/react-lottie-player';
 AOS.init();
 const Banner = () => {
   const el = React.useRef(null);
@@ -36,7 +37,17 @@ const Banner = () => {
         <div data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500" className="img lg:w-1/3 sm:w-1/2 md:w-2/3" >
-          <img src={Img} alt="Img" className="w-full h-full rounded-lg" />
+          {/* <img src={Img} alt="Img" className="w-full h-full rounded-lg" /> */}
+          <Player
+            autoplay
+            loop
+            src="https://assets9.lottiefiles.com/private_files/lf30_obidsi0t.json"
+            style={{ height: '300px', width: '300px' }}
+          >
+            <Controls
+              visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
+          </Player>
+
         </div>
         <div data-aos="fade-left" className="content lg:w-1/2 sm:w-full sm:ps-3 lg:ps-0" >
           <h2 className='font-Roboto font-medium text-3xl text-green-600'>Welcome to My World</h2>
