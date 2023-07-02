@@ -21,7 +21,7 @@ const About = () => {
   autoplay
   loop
   src="https://assets8.lottiefiles.com/private_files/lf30_igfaivqx.json"
-  style={{ height: '300px', width: '300px' }}
+  style={{ height: '600px', width: '600px' }}
 >
   <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
 </Player>
