@@ -127,7 +127,7 @@ const About = () => {
             <p className="font-Poppins text-base text-blue-600 font-medium">Here’s your guide to the tech fest 2021 process.<br></br> Go through all the steps to know the exact process of the fest.</p>
           </div>
           <div data-aos="fade-up-left">
-            <h1 className="font-Roboto text-3xl font-bold text-orange-400 ">B.sc in Physics At University Of Calcutta</h1>
+            <h1 className="font-Roboto text-3xl font-bold text-orange-400 ">B.sc in Physics at University Of Calcutta</h1>
           </div>
         </div>
       </div>
