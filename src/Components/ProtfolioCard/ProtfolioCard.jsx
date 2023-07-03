@@ -31,7 +31,7 @@ const ProtfolioCard = () => {
             <div className='grid lg:grid-cols-3 sm:grid-cols-1  sm:ms-24 lg:ms-0 md:ms-36 gap-3 -top-3  my-12'>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" className="card card-1  w-96 bg-base-100 shadow-xl p1 "
+                    data-aos-easing="ease-in-sine" className="card  hover:top-8 transition-[all linear .3s]	  w-96 bg-base-100 shadow-xl p1 "
                     onMouseEnter={() => handleMouseEnter(0)}
                     onMouseLeave={handleMouseLeave}>
                     <figure className="px-10 pt-10">
@@ -39,7 +39,7 @@ const ProtfolioCard = () => {
                     </figure>
                     {hoveredIndex === 0 && (
                         <div
-                            className="overlay-text   bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
+                            className="overlay-text   bg-[rgba(0,0,0,0.6)]  rounded-2xl hover:-top-0 transition-all duration-300  absolute
                            p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">summer Camp</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>This is a manufacturing website site. Here users can log in to make sure to authorize users to order products, give reviews, and update their profiles. Can pay for ordered products. There is also an admin panel in the dashboard where the admin can make admin, manage orders and add products. Fully responsive. Payment gateway has been added.</p>
@@ -59,14 +59,15 @@ const ProtfolioCard = () => {
                 </div>
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1500" className="card w-96 bg-base-100 shadow-xl" onMouseEnter={() => handleMouseEnter2(0)}
+                    data-aos-duration="1500" className="card w-96 bg-base-100
+                    hover:top-8 hover:transition-[all linear .3s] shadow-xl" onMouseEnter={() => handleMouseEnter2(0)}
                     onMouseLeave={handleMouseLeave2}>
                     <figure className="px-10 pt-10">
                         <img src={toy} alt="Shoes" />
                     </figure>
                     {hoveredIndex2 === 0 && (
                         <div
-                            className="overlay-text  bg-[rgba(0,0,0,0.6)]   rounded-2xl top-8  absolute
+                            className="overlay-text  bg-[rgba(0,0,0,0.6)]   rounded-2xl hover:-top-0 transition-all duration-300  absolute
                         p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">Toy-Market-Place</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>
@@ -86,7 +87,8 @@ const ProtfolioCard = () => {
                 </div>
                 <div data-aos="fade-left"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" className="card w-96 bg-base-100 shadow-xl"
+                    data-aos-easing="ease-in-sine" className="card w-96 bg-base-100
+                     hover:top-8 hover:transition-all duration-1000 shadow-xl"
                     onMouseEnter={() => handleMouseEnter3(0)}
                     onMouseLeave={handleMouseLeave3}>
                     <figure className="px-10 pt-10">
@@ -94,7 +96,9 @@ const ProtfolioCard = () => {
                     </figure>
                     {hoveredIndex3 === 0 && (
                         <div
-                            className="overlay-text bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
+                            className="overlay-text
+                            hover:-top-0 transition-all duration-300
+                             bg-[rgba(0,0,0,0.6)]  rounded-2xl   absolute
                           p-8 left-0 ">
                             <h2 className="text-center  text-white  text-2xl mb-3 font-Poppins capitalize">Chief-Recipe-Hunter</h2>
                             <p className='px-8   font-Poppins text-sm text-white '>Delve into a world of authentic flavors and cultural diversity with exclusive access to expert chefs' traditional recipes. Discover the history, ingredients, and techniques of specific cuisines, immersing yourself in their rich culinary heritage. Expand your culinary knowledge and savor the delights of traditional cuisine on our platform. </p>
