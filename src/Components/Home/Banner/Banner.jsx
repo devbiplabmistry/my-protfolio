@@ -50,16 +50,16 @@ const Banner = () => {
 
         </div>
         <div data-aos="fade-left" className="content lg:w-1/2 sm:w-full sm:ps-3 lg:ps-0" >
-          <h2 className='font-Roboto font-medium text-6xl text-green-600'>Welcome to My World</h2>
+          <h2 className='font-Roboto font-medium text-6xl text-[tomato]'>Welcome to My World</h2>
           <h5 className='font-Roboto font-medium text-3xl text-green-600  bg-transparent'>
             <img src="https://cliply.co/wp-content/uploads/2019/06/391906110_WAVING_HAND_400px.gif" alt="" className='w-8' />
           </h5>
           <span ref={el} />
-          <p className='text-base font-Poppins text-green-600'> I'm ready to take on a challenging career in a dynamic organization where I can showcase my skills,
+          <p className='text-base font-Poppins text-[#DAF7A6 ]'> I'm ready to take on a challenging career in a dynamic organization where I can showcase my skills,
             knowledge, and ability to grow professionally. I have experience working in teams and I make sure to
             keep my skills up to date in this ever-changing industry.</p>
           <Link to="/contact"><button className="btn  btn-success mr-3 mt-3 cursor-pointer font-Roboto text-white text-lg">Hire Me <AiOutlinePlus></AiOutlinePlus> </button></Link>
-          <Link to={resume} download target='blank' ><button className="btn btn-outline btn-success mt-3 cursor-pointer font-Roboto text-white text-lg">Get Resume <AiOutlineFilePdf></AiOutlineFilePdf></button></Link>
+          <Link to={resume} download target='blank' ><button className="btn btn-outline btn-success mt-3 cursor-pointer font-Roboto  text-lg"><span className='hover:text-white'>Get Resume </span><AiOutlineFilePdf></AiOutlineFilePdf></button></Link>
         </div>
       </div>
     </>
