@@ -40,7 +40,7 @@ const ProtfolioCard = () => {
                     {hoveredIndex === 0 && (
                         <div
                             className="overlay-text   bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
-                          bg-transparent p-8 left-0 ">
+                           p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">summer Camp</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>This is a manufacturing website site. Here users can log in to make sure to authorize users to order products, give reviews, and update their profiles. Can pay for ordered products. There is also an admin panel in the dashboard where the admin can make admin, manage orders and add products. Fully responsive. Payment gateway has been added.</p>
                             <h3 className='font-Poppins font-semibold text-white text-lg my-4'>Used Technology</h3>
@@ -95,7 +95,7 @@ const ProtfolioCard = () => {
                     {hoveredIndex3 === 0 && (
                         <div
                             className="overlay-text bg-[rgba(0,0,0,0.6)]  rounded-2xl top-8  absolute
-                         bg-transparent p-8 left-0 ">
+                          p-8 left-0 ">
                             <h2 className="text-center  text-white  text-2xl mb-3 font-Poppins capitalize">Chief-Recipe-Hunter</h2>
                             <p className='px-8   font-Poppins text-sm text-white '>Delve into a world of authentic flavors and cultural diversity with exclusive access to expert chefs' traditional recipes. Discover the history, ingredients, and techniques of specific cuisines, immersing yourself in their rich culinary heritage. Expand your culinary knowledge and savor the delights of traditional cuisine on our platform. </p>
                             <h3 className='font-Poppins font-semibold text-white text-lg my-4'>Used Technology</h3>
