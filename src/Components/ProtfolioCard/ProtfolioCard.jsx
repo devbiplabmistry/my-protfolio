@@ -67,7 +67,7 @@ const ProtfolioCard = () => {
                     {hoveredIndex2 === 0 && (
                         <div
                             className="overlay-text  bg-[rgba(0,0,0,0.6)]   rounded-2xl top-8  absolute
-                       bg-transparent p-8 left-0 ">
+                        p-8 left-0 ">
                             <h2 className="text-center text-white  text-2xl mb-3 font-Poppins capitalize">Toy-Market-Place</h2>
                             <p className='px-8 font-Poppins text-sm text-white '>
                                 Discover our tailored platform for toy enthusiasts, with interactive features, personalized profiles, and seamless shopping. Curate your toy collection, track wishlist and purchases, and engage with a vibrant community. Find joy in building your own toy kingdom on our captivating platform, where every click is an adventure into the world of toys.</p>
